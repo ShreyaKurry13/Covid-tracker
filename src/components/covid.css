@@ -1,0 +1,159 @@
+body{
+    background-color: rgba(0, 0, 0, 0.893);
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    animation: text 2s linear infinite;
+    /* position: fixed; */
+}
+/* @keyframes text {
+    0%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 25px;
+    }
+} */
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.card{
+    background-color:rgb(56, 56, 151);
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+.card2{
+   background-color:rgb(153, 118, 52);
+   width: calc(76%/3);
+   margin: 2%;
+   padding: 1%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+.card3{
+    background-color: rgb(169, 52, 52);
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 1%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+.card4{
+    background-color:rgb(205, 205, 49);
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 1%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+.card5{
+    background-color:rgb(60, 146, 60);
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 1%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+.card6{
+    background-color: rgb(137, 61, 137);
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 1%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+.card:hover{
+    transform:scale(1.1);
+} 
+.card2:hover{
+    transform:scale(1.1);
+} 
+.card3:hover{
+    transform:scale(1.1);
+} 
+.card4:hover{
+    transform:scale(1.1);
+} 
+.card5:hover{
+    transform:scale(1.1);
+} 
+.card6:hover{
+    transform:scale(1.1);
+} 
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card__name span {
+    font-size: 15px;
+}
+.card__total {
+    font-size: 250%;
+    font-weight: bold;
+}
+@media (max-width:700px) {
+    .card__total{
+        font-size: 55px;
+    }
+}
+@media (max-width:700px) {
+    .card{
+        width: 90%;
+        height: 250px;
+        margin-right: 0;
+        float: none;
+    }
+    .card2{
+        width: 90%;
+        height: 250px;
+        margin-right: 0;
+        float: none;
+    }
+    .card3{
+        width: 90%;
+        height: 250px;
+        margin-right: 0;
+        float: none;
+    }
+    .card4{
+        width: 90%;
+        height: 250px;
+        margin-right: 0;
+        float: none;
+    }
+    .card5{
+        width: 90%;
+        height: 250px;
+        margin-right: 0;
+        float: none;
+    }
+    .card6{
+        width: 90%;
+        height: 250px;
+        margin-right: 0;
+        float: none;
+    }
+    ul{
+        padding: 0%;
+    }
+}
